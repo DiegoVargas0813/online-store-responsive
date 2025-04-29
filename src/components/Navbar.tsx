@@ -7,7 +7,7 @@ import {LoginButton} from "./LoginButton.tsx";
 import {LogoutButton} from "./LogoutButton.tsx";
 import {useCart} from "../context/CartContext.tsx";
 
-
+//Commen
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false); //constant added to handle the menu toggle
     const {user,role,displayName} = useAuth();
